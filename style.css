@@ -4,12 +4,16 @@
 
 .toolbar {
   background-color: #3c3a39;
-  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  font-family: 'Roboto', sans-serif;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headline {
@@ -49,4 +53,6 @@
   margin-top: 2rem;
   display: flex;
   gap: 1rem;
+  list-style: none;
+  margin-left: -2rem;
 }
