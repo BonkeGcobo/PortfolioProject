@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete Round');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 .toolbar {
   background-color: #3C3a39;
   color: #fff;
@@ -5,4 +9,34 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+  font-family: 'Roboto' ,sans-serif;
+}
+
+.headline {
+  padding: 1rem;
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+  margin-bottom: 0.5px;
+}
+
+.supText {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+
+.support {
+  margin-bottom: 0.5rem;
+}
+
+.descrip {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
