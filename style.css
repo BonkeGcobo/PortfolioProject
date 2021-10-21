@@ -25,7 +25,7 @@
   background-image: url("images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 35% 
+  background-size: 35%;
 }
 
 .name {
@@ -47,7 +47,7 @@
 
 .descrip {
   color: #fff;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
 }
 
 .icons {
@@ -83,9 +83,9 @@
 .lans {
   list-style: none;
   display: flex;
-  gap: 6px; 
+  gap: 6px;
   width: 85%;
-  padding-left: 0;  
+  padding-left: 0;
 }
 
 .prolan {
@@ -119,7 +119,7 @@
 
 .lans2 {
   padding: 0.5rem;
-  background: rgba(92, 92, 105,0.7);
+  background: rgba(92, 92, 105, 0.7);
 }
 
 .pro2lan {
@@ -146,4 +146,3 @@
   color: #fff;
   border-style: none;
 }
-
