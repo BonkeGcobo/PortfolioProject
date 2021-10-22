@@ -228,3 +228,8 @@
   align-items: center;
   color: #fff;
 }
+
+.MyresumeBtn:hover {
+  background-color: #fff;
+  color: #ff6b00;
+}
