@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete Round');
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 
 .toolbar {
   background-color: #3c3a39;
@@ -107,7 +108,7 @@
 }
 
 .proj2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
@@ -115,6 +116,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  gap: 6px;
 }
 
 .lans2 {
@@ -145,4 +147,52 @@
   background-color: #ff6b00;
   color: #fff;
   border-style: none;
+}
+
+.aboutMyself {
+  display: grid;
+  grid-template-rows: repeat(4, minmax(200px, auto));
+  padding-left: 1rem;
+  background-color: #1c1a19;
+  margin-top: 6rem;
+   
+}
+
+.aboutCover {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  height: 65vh;
+  background-image: url("images/AboutBack.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  margin-bottom: -6rem;
+}
+
+.aboutMy {
+  font-size: 56px;
+  color: #ff6b00;
+  width: 75%;
+  font-family: "Crete Round", sans-serif;
+}
+
+.aboutText {
+  margin-top: -3rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  width: 75%;
+  font-size: 13px;
+}
+
+.MyresumeBtn {
+  background-color: #ff6b00;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border-style: none; 
+}
+
+.horiline {
+  width: 95%;
+  align-self: center;
 }
