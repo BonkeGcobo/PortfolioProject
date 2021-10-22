@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=InaiMathi');
 
 .toolbar {
   background-color: #3c3a39;
@@ -153,9 +154,9 @@
   display: grid;
   grid-template-rows: repeat(4, minmax(200px, auto));
   padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #1c1a19;
   margin-top: 6rem;
-   
 }
 
 .aboutCover {
@@ -189,10 +190,39 @@
   color: #fff;
   height: 40px;
   width: 150px;
-  border-style: none; 
+  border-style: none;
 }
 
 .horiline {
-  width: 95%;
+  width: 100%;
   align-self: center;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  margin-top: -3rem;
+}
+
+.lanHeader {
+  display: flex;
+  color: #fff;
+  font-family: 'InaiMathi', sans-serif;
+  justify-content: center;
+  gap: 2px;
+  align-items: center;
+}
+
+.lang {
+  display: flex;
+  width: 69%;
+  margin-left: 1rem;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
+  color: #fff;
 }
