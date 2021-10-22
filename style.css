@@ -201,18 +201,20 @@
 .languages {
   display: flex;
   flex-direction: column;
+  font-family: 'InaiMathi', sans-serif;
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
   margin-top: -3rem;
 }
 
 .lanHeader {
   display: flex;
   color: #fff;
-  font-family: 'InaiMathi', sans-serif;
   justify-content: center;
-  gap: 2px;
+  gap: 7px;
   align-items: center;
 }
 
