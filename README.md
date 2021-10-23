@@ -18,6 +18,18 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://bonkegcobo.github.io/PortfolioProject/)
 
+## Getting Started
+
+Prerequisites: Knowledge of Html & CSS, github and linters
+
+Setup: Visual Studio Code
+
+Install: git and github
+
+Run Test: To run html linters test "npx hint ." &  npx stylelint "**/*.{css,scss}" for css linters.
+
+Deployment: (https://bonkegcobo.github.io/PortfolioProject/)
+
 ## Bonke Gcobo
 
 👤 **Bonke Gcobo**
