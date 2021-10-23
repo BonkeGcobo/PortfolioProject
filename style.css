@@ -230,6 +230,33 @@
 }
 
 .MyresumeBtn:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
+}
+
+.MyresumeBtn:active {
+  background-color: #e05304;
+  color: #f1d8ca;
+}
+
+.MyresumeBtn:disabled {
+  background-color: #f4f1f0;
+  color: #666462;
+}
+
+.projectBtn:active {
+  background-color: #e05304;
+  color: #f1d8ca;
+}
+
+.projectBtn:hover {
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.projectBtn:disabled {
+  background-color: #f4f1f0;
+  color: #666462;
 }
