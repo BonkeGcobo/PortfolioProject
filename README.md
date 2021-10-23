@@ -16,16 +16,19 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://bonkegcobo.github.io/PortfolioProject/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Prerequisites: Knowledge of Html & CSS, github and linters
 
-git clone https://github.com/BonkeGcobo/PortfolioProject.git
+Setup: Visual Studio Code
 
+Install: git and github
+
+Run Test: To run html linters test "npx hint ." &  npx stylelint "**/*.{css,scss}" for css linters.
+
+Deployment: (https://bonkegcobo.github.io/PortfolioProject/)
 
 ## Bonke Gcobo
 
