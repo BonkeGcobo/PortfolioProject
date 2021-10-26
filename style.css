@@ -318,18 +318,26 @@ input[type=email] {
   color: #fff;
 }
 
+.touch:hover {
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
 .line {
-  margin-top: 200px;
+  margin-top: 4rem;
   color: #DFE1E6;
 }
 
 .imgs {
   display: flex;
-  flex-direction: row;
   list-style: none;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
+  margin-right: 2rem;
 }
 
-.right {
-  margin-left: -15  %;
+.contactInfoSoc {
+  margin-top: 7rem;
+  width: 100%;
 }
