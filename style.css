@@ -317,3 +317,19 @@ input[type=email] {
   background: #ff6b00;
   color: #fff;
 }
+
+.line {
+  margin-top: 200px;
+  color: #DFE1E6;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.right {
+  margin-left: -15  %;
+}

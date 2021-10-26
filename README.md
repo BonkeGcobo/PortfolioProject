@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bonke's Portfolio
+# Bonke's Portfolio / mohamed eldeeb
 
 > Purpose of the project is to showcase my knowledge of HTML and CSS, done at Microverse during the first module 
 
