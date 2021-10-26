@@ -288,3 +288,11 @@ input[type=text] {
 input[type=email] {
   border-style: none;
 }
+
+.email-line {
+  margin-bottom: 2rem;
+}
+
+#msg {
+  width: 100%;
+}
