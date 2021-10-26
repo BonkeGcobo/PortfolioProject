@@ -341,3 +341,9 @@ input[type=email] {
   margin-top: 7rem;
   width: 100%;
 }
+
+textarea {
+  border-style: none;
+  background-color: #fbf8f7;
+  height: 114px;
+}
