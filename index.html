@@ -301,15 +301,24 @@
 
       <div class="input">
         <form action="https://formspree.io/f/{form_id}" method="post">
-          <label for="name"></label>
-          <input name="fullName" id="name" type="text" placeholder="Full Name" required maxlength="30"><br>
-          <hr class="nameline">
-          <!--<button type="submit">Submit</button>-->
-          <label for="mail"></label>
-          <input type="email" name="mail" id="mail" placeholder="Email address" required /><br>
-          <hr class="email-line">
+
+          <div class="inputFields">
+            <label for="name"></label>
+            <input name="fullName" id="name" type="text" placeholder="Full Name" required maxlength="30"><br>
+            <hr class="nameline">
+            <label for="mail"></label>
+            <input type="email" name="mail" id="mail" placeholder="Email address" required /><br>
+            <hr class="email-line">
+          </div>
       
-          <textarea name="msg" id="msg" placeholder="Enter text here" required></textarea>
+          <div class="textArea">
+            <textarea name="msg" id="msg" placeholder="Enter text here" required></textarea>
+          </div>
+
+          <div class="btnArea">
+            <button type="submit" class="touch_btn">Get in touch</button>
+          </div>
+
         </form>
       </div>
     </footer>

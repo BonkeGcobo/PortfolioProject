@@ -266,6 +266,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
+  height: 100vh;
 }
 
 .contact-text {
@@ -275,6 +276,11 @@
   font-family: 'Inter', sans-serif;
   color: #172b4d;
   margin-bottom: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
 }
 
 input[type=text] {
@@ -295,4 +301,19 @@ input[type=email] {
 
 #msg {
   width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btnArea {
+  align-self: center;
+  height: 30px;
+}
+
+.touch_btn {
+  margin-left: 20%;
+  border-style: none;
+  height: 25px;
+  width: 120px;
+  background: #ff6b00;
+  color: #fff;
 }
