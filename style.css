@@ -260,3 +260,90 @@
   background-color: #f4f1f0;
   color: #666462;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  height: 100vh;
+}
+
+.contact-text {
+  text-align: center;
+  width: 50%;
+  font-size: 19px;
+  font-family: 'Inter', sans-serif;
+  color: #172b4d;
+  margin-bottom: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  border-style: none;
+}
+
+.nameline {
+  margin-bottom: 2rem;
+}
+
+input[type=email] {
+  border-style: none;
+}
+
+.email-line {
+  margin-bottom: 2rem;
+}
+
+#msg {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btnArea {
+  align-self: center;
+  height: 30px;
+}
+
+.touch_btn {
+  margin-left: 20%;
+  border-style: none;
+  height: 25px;
+  width: 120px;
+  background: #ff6b00;
+  color: #fff;
+}
+
+.touch:hover {
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.line {
+  margin-top: 4rem;
+  color: #dfe1e6;
+}
+
+.imgs {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.contactInfoSoc {
+  margin-top: 7rem;
+  width: 100%;
+}
+
+textarea {
+  border-style: none;
+  background-color: #fbf8f7;
+  height: 114px;
+}
