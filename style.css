@@ -347,3 +347,33 @@ textarea {
   background-color: #fbf8f7;
   height: 114px;
 }
+
+.DeskToolBar {
+  display: none;
+}
+
+@media only screen and  (min-width: 1000px) {
+  .toolbar{
+    display: none;
+  }
+
+  .DeskToolBar {
+    display: flex;
+    background-color: #3e3c3c;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    border: 1px solid pink;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+  
+  .menuItems {
+    display: flex;
+    list-style: none;
+  }
+  
+}
+  
+
