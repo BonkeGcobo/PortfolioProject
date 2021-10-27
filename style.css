@@ -352,6 +352,10 @@ textarea {
   display: none;
 }
 
+.DesktopHeadLine {
+  display: none;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar{
     display: none;
@@ -371,9 +375,58 @@ textarea {
   .menuItems {
     display: flex;
     list-style: none;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+
+  .headline {
+    display: none;
+  }
+
+  .DesktopHeadLine {
+    display: flex;
+    background: #1c1a19;
+    height: 100vh;
+    gap: 5rem;
+    align-items: center;
+    background-image: url("images/DesktopBackground.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .soc-media-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
-  
+
+  .DeskText {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .TextHeading {
+    color: #ff6b00;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 52px;
+    height: 45vh;
+  }
+
+  .intro {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin-top: -2rem;
+  }
+ 
+  .services {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    width: 45%;
+    margin-top: -2rem;
+  }
 }
   
 
