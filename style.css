@@ -363,7 +363,6 @@ textarea {
     color: #fff;
     font-family: 'Inter', sans-serif;
     justify-content: space-between;
-    border: 1px solid pink;
     padding-left: 1rem;
     padding-right: 1rem;
     align-items: center;
@@ -372,6 +371,7 @@ textarea {
   .menuItems {
     display: flex;
     list-style: none;
+    gap: 1rem;
   }
   
 }
