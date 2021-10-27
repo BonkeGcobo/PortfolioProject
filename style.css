@@ -356,6 +356,14 @@ textarea {
   display: none;
 }
 
+.DeskHead {
+  display: none;
+}
+
+.DeskWorks{
+  display: none;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar{
     display: none;
@@ -427,6 +435,55 @@ textarea {
     width: 45%;
     margin-top: -2rem;
   }
+  
+  .title {
+    display: none;
+  }
+
+  .DeskHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: 'Crete Round', sans-serif;
+    color: #091e42;
+  }
+
+  .DeskWorks  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .DeskPro1 {
+    margin-top: 4rem;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 4rem;
+  }
+
+  .ProjectInfo {
+    display: flex;
+    flex-direction: column;
+    color: #091e42;
+    margin-top: -2rem;
+  }
+
+  .pro-details {
+    width: 65%;
+    font-family: 'Inter' , sans-serif;
+  }
+
+  .ProHead {
+    font-family: 'Crete Round', sans-serif;
+  }
+
+
 }
   
 
