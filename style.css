@@ -511,6 +511,11 @@ textarea {
     background-repeat: no-repeat;
   }
 
+  .DeskProj4 {
+    background-image: url("images/Pro4Desk.png");
+    background-repeat: no-repeat;
+  }
+
   .DeskProHead {
     width: 65%;
     margin-left: 1rem;
@@ -523,8 +528,9 @@ textarea {
     margin-top: -1.5rem;
     margin-left: 1rem;
     font-family: 'Inter', sans-serif;
-
   }
+  
+
 
 }
   
