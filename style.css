@@ -360,12 +360,16 @@ textarea {
   display: none;
 }
 
-.DeskWorks{
+.DeskWorks {
+  display: none;
+}
+
+.DeskAboutMyself {
   display: none;
 }
 
 @media only screen and  (min-width: 1000px) {
-  .toolbar{
+  .toolbar {
     display: none;
   }
 
@@ -379,7 +383,7 @@ textarea {
     padding-right: 1rem;
     align-items: center;
   }
-  
+
   .menuItems {
     display: flex;
     list-style: none;
@@ -428,14 +432,14 @@ textarea {
     color: #fff;
     margin-top: -2rem;
   }
- 
+
   .services {
     color: #fff;
     font-family: 'Inter', sans-serif;
     width: 45%;
     margin-top: -2rem;
   }
-  
+
   .title {
     display: none;
   }
@@ -449,7 +453,7 @@ textarea {
     color: #091e42;
   }
 
-  .DeskWorks  {
+  .DeskWorks {
     display: flex;
     flex-direction: column;
     margin-left: 6rem;
@@ -476,7 +480,7 @@ textarea {
 
   .pro-details {
     width: 65%;
-    font-family: 'Inter' , sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   .ProHead {
@@ -495,7 +499,7 @@ textarea {
     display: flex;
     flex-direction: column;
   }
-  
+
   .deskBtn {
     margin-top: -1rem;
     width: 369px;
@@ -529,8 +533,58 @@ textarea {
     margin-left: 1rem;
     font-family: 'Inter', sans-serif;
   }
-  
 
+  .aboutMyself {
+    display: none;
+  }
 
+  .DeskAboutMyself {
+    display: block;
+    background: #262626;
+    margin-top: 4rem;
+    padding-left: 1rem;
+  }
+
+  .AboutDeskSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .DesktopAboutCover {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 9rem;
+  }
+
+  .DeskaboutHead {
+    color: #ff6b00;
+    font-size: 52px;
+    font-family: 'Crete Round', sans-serif;
+    margin-bottom: -4rem;
+  }
+
+  .DeskaboutText {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .aboutDeskLine {
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+
+  .DeskSkills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .deskSk {
+    display: flex;
+    flex-direction: column;
+  }
 }
-  
