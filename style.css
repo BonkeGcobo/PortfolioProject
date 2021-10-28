@@ -483,7 +483,48 @@ textarea {
     font-family: 'Crete Round', sans-serif;
   }
 
+  .proGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: -3rem;
+    gap: 3rem;
+  }
+
+  .project2Desk {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .deskBtn {
+    margin-top: -1rem;
+    width: 369px;
+  }
+
+  .DeskProjects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DeskProj3 {
+    background-image: url("images/Pro3Desk.png");
+    background-repeat: no-repeat;
+  }
+
+  .DeskProHead {
+    width: 65%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .DeskProInfo {
+    width: 65%;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    font-family: 'Inter', sans-serif;
+
+  }
 
 }
   
-
