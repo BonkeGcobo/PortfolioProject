@@ -368,7 +368,7 @@ textarea {
   display: none;
 }
 
-.contact-form {
+.Desktop-contact-form {
   display: none;
 }
 
@@ -577,7 +577,7 @@ textarea {
 
   .DeskaboutText {
     color: #fff;
-    font-style: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 2rem;
   }
 
@@ -614,7 +614,7 @@ textarea {
   }
 
   .DeskContactText {
-    font-style: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     line-height: 42px;
     width: 28%;
@@ -636,7 +636,7 @@ textarea {
   .LastName {
     width: 40%;
   }
-  
+
   .DeskEmail {
     width: 84%;
   }
@@ -657,5 +657,4 @@ textarea {
     background: #ff6b00;
     color: #fff;
   }
-
 }
