@@ -368,6 +368,10 @@ textarea {
   display: none;
 }
 
+.contact-form {
+  display: none;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar {
     display: none;
@@ -543,6 +547,7 @@ textarea {
     background: #262626;
     margin-top: 4rem;
     padding-left: 1rem;
+    padding-bottom: 6rem;
   }
 
   .AboutDeskSec {
@@ -550,6 +555,10 @@ textarea {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4rem;
+  }
+
+  .contact-form {
+    display: none;
   }
 
   .DesktopAboutCover {
@@ -568,7 +577,7 @@ textarea {
 
   .DeskaboutText {
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-style: 'Inter', sans-serif;
     margin-bottom: 2rem;
   }
 
@@ -587,4 +596,66 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
+  .Desktop-contact-form {
+    display: block;
+    align-items: center;
+  }
+
+  .DeskContactInfo {
+    display: flex;
+  }
+
+  .DeskForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 70%;
+  }
+
+  .DeskContactText {
+    font-style: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    width: 28%;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    color: #262626;
+    font-weight: 700;
+  }
+
+  .names {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .firstName {
+    width: 40%;
+  }
+
+  .LastName {
+    width: 40%;
+  }
+  
+  .DeskEmail {
+    width: 84%;
+  }
+
+  .DesktopTextArea {
+    margin-top: 2rem;
+    width: 84%;
+  }
+
+  .DesktopBtnArea {
+    padding-left: -4rem;
+  }
+
+  .GetInDesk {
+    border-style: none;
+    height: 25px;
+    width: 120px;
+    background: #ff6b00;
+    color: #fff;
+  }
+
 }
