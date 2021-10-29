@@ -73,13 +73,15 @@
   text-align: center;
   margin-top: 6rem;
   margin-bottom: 4rem;
+  font-family: 'Crete Round', sans-serif;
+  color: #091e42;
 }
 
 .proj1 {
   display: flex;
   flex-direction: column;
   color: #091e42;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
 }
 
 .lans {
@@ -118,6 +120,10 @@
   background-size: cover;
   color: #fff;
   gap: 6px;
+}
+
+body {
+  margin: 0;
 }
 
 .lans2 {
@@ -346,4 +352,321 @@ textarea {
   border-style: none;
   background-color: #fbf8f7;
   height: 114px;
+}
+
+.DeskToolBar {
+  display: none;
+}
+
+.DesktopHeadLine {
+  display: none;
+}
+
+.DeskHead {
+  display: none;
+}
+
+.DeskWorks {
+  display: none;
+}
+
+.DeskAboutMyself {
+  display: none;
+}
+
+.Desktop-contact-form {
+  display: none;
+}
+
+@media only screen and  (min-width: 1000px) {
+  .toolbar {
+    display: none;
+  }
+
+  .DeskToolBar {
+    display: flex;
+    background-color: #3e3c3c;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .menuItems {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+
+  .headline {
+    display: none;
+  }
+
+  .DesktopHeadLine {
+    display: flex;
+    background: #1c1a19;
+    height: 100vh;
+    gap: 5rem;
+    align-items: center;
+    background-image: url("images/DesktopBackground.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .soc-media-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .DeskText {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .TextHeading {
+    color: #ff6b00;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 52px;
+    height: 45vh;
+  }
+
+  .intro {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin-top: -2rem;
+  }
+
+  .services {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    width: 45%;
+    margin-top: -2rem;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .DeskHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: 'Crete Round', sans-serif;
+    color: #091e42;
+  }
+
+  .DeskWorks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .DeskPro1 {
+    margin-top: 4rem;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 4rem;
+  }
+
+  .ProjectInfo {
+    display: flex;
+    flex-direction: column;
+    color: #091e42;
+    margin-top: -2rem;
+  }
+
+  .pro-details {
+    width: 65%;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .ProHead {
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .proGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: -3rem;
+    gap: 3rem;
+  }
+
+  .project2Desk {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deskBtn {
+    margin-top: -1rem;
+    width: 369px;
+  }
+
+  .DeskProjects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DeskProj3 {
+    background-image: url("images/Pro3Desk.png");
+    background-repeat: no-repeat;
+  }
+
+  .DeskProj4 {
+    background-image: url("images/Pro4Desk.png");
+    background-repeat: no-repeat;
+  }
+
+  .DeskProHead {
+    width: 65%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .DeskProInfo {
+    width: 65%;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .aboutMyself {
+    display: none;
+  }
+
+  .DeskAboutMyself {
+    display: block;
+    background: #262626;
+    margin-top: 4rem;
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+  }
+
+  .AboutDeskSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .contact-form {
+    display: none;
+  }
+
+  .DesktopAboutCover {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 9rem;
+  }
+
+  .DeskaboutHead {
+    color: #ff6b00;
+    font-size: 52px;
+    font-family: 'Crete Round', sans-serif;
+    margin-bottom: -4rem;
+  }
+
+  .DeskaboutText {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .DeskaboutInfo {
+    font-size: 20px;
+  }
+
+  .aboutDeskLine {
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+
+  .DeskSkills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .deskSk {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .Desktop-contact-form {
+    display: block;
+    align-items: center;
+  }
+
+  .DeskContactInfo {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .DeskForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 70%;
+  }
+
+  .DeskContactText {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    width: 28%;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    color: #262626;
+    font-weight: 700;
+  }
+
+  .names {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .firstName {
+    width: 40%;
+  }
+
+  .LastName {
+    width: 40%;
+  }
+
+  .DeskEmail {
+    width: 84%;
+  }
+
+  .DesktopTextArea {
+    margin-top: 2rem;
+    width: 84%;
+  }
+
+  .DesktopBtnArea {
+    padding-left: -4rem;
+  }
+
+  .GetInDesk {
+    border-style: none;
+    height: 25px;
+    width: 120px;
+    background: #ff6b00;
+    color: #fff;
+  }
 }
