@@ -614,6 +614,7 @@ textarea {
 
   .DeskContactInfo {
     display: flex;
+    gap: 5rem;
   }
 
   .DeskForm {
@@ -666,5 +667,9 @@ textarea {
     width: 120px;
     background: #ff6b00;
     color: #fff;
+  }
+
+  .deskSk {
+    font-family: 'Inter', sans-serif;
   }
 }
