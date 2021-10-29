@@ -587,6 +587,10 @@ textarea {
     margin-bottom: 2rem;
   }
 
+  .DeskaboutInfo {
+    font-size: 20px;
+  }
+
   .aboutDeskLine {
     padding-bottom: 4rem;
     padding-left: 2rem;
