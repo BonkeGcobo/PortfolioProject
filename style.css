@@ -123,7 +123,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .lans2 {
@@ -605,6 +605,7 @@ textarea {
   .deskSk {
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
   }
 
   .Desktop-contact-form {
@@ -667,9 +668,5 @@ textarea {
     width: 120px;
     background: #ff6b00;
     color: #fff;
-  }
-
-  .deskSk {
-    font-family: 'Inter', sans-serif;
   }
 }
