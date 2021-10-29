@@ -421,6 +421,16 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-right: 4rem;
+  }
+
+  .desk-soc_icon {
+    cursor: pointer;
+    transition: height 2s;
+  }
+
+  .desk-soc_icon:hover {
+    height: 50px;
   }
 
   .DeskText {
