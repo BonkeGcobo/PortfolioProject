@@ -3,8 +3,6 @@ window.onload = () => {
     hamburger.addEventListener('click',()=>{
         const menu=document.querySelector('.mobile-menu');
         menu.style.display="block";
-        const menuItems = document.getElementsByClassName('menuPopUp')
-        menuItems.style.display = "block"
     });
 
     const closeBtn = document.querySelector(".closeBtn");

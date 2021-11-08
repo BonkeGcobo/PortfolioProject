@@ -400,6 +400,32 @@ textarea {
 
 }
 
+.menuPopUp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter' , sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /*text-align: left;*/
+  list-style: none;
+  border: 1px pink solid;
+  margin-right: 2rem;
+
+}
+
+.items {
+  margin-top: 1rem;
+}
+
+.items-line {
+  width: 90%;
+  margin-right: 60px;
+  border: 1px solid #6f6c6b;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar {
     display: none;
