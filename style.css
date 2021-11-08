@@ -378,6 +378,28 @@ textarea {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 90%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding: 2rem;
+}
+
+.closeBtn {
+  float: right;
+  padding: 0.5rem;
+  width: 8%;
+
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar {
     display: none;
