@@ -412,14 +412,29 @@ textarea {
   margin-right: 2rem;
 }
 
+
 .items {
   margin-top: 1rem;
+}
+
+.items a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .items-line {
   width: 90%;
   margin-right: 60px;
   border: 1px solid #6f6c6b;
+}
+
+.Mobile-ProjectPopUp {
+  display: none;
+  flex-direction: column;
+}
+
+.popTop {
+  display: flex;
 }
 
 @media only screen and  (min-width: 1000px) {

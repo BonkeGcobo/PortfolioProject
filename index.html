@@ -15,17 +15,6 @@
       <nav class="menubar"><img src="images/MenuBar.svg" alt="showing menubar"></nav>
     </header>
 
-    <!--Mobile menu-->
-    <div class="mobile-menu">
-      <div class="closeBtn">
-        <img src="images/Close_btn.svg" alt="Shows close btn">
-      </div>
-      <ul class="menuPopUp">
-        <li class="items">Portfolio</li><hr class="items-line">
-        <li class="items">About</li><hr class="items-line">
-        <li class="items">Contact</li><hr class="items-line">
-      </ul>
-    </div>
 
     <!--Desktop Header-->
     <header class="DeskToolBar">
@@ -132,7 +121,7 @@
        
       </div>
       
-    <section class="works">
+    <section class="works" id="portfolio">
       <div class="proj1">
         <div class="imgSec"><img src="images/project1.png" alt="show project 1"/></div>
 
@@ -466,7 +455,7 @@
 
     </section>
 
-    <section class="aboutMyself">
+    <section class="aboutMyself" id="About">
       <div class="aboutCover">
         <div class="aboutHead">
           <h1 class="aboutMy">About me</h1>
@@ -537,6 +526,15 @@
         </div>
       </div>
     </section>
+
+    <!--Mobile Project Pop Up window-->
+    <!--<div class="Mobile-ProjectPopUp">
+      <div class="popTop">
+        <div class="projHeading"><h2 class="heading"></h2></div>
+        <div class="p"></div>
+        
+      </div>
+    </div>-->
 
     <!--About Myself Section Desktop Version-->
     <section class="DeskAboutMyself">
@@ -621,7 +619,7 @@
       
     </section>
 
-    <footer class="contact-form">
+    <footer class="contact-form" id="contact">
       <div class="contact-text">
         <h3 class="contactText">
           I'm always interested in hearing about new projects,
@@ -737,6 +735,17 @@
     </footer>
 
     <!--Mobile Menu-->
+     <!--Mobile menu-->
+     <div class="mobile-menu">
+      <div class="closeBtn">
+        <img src="images/Close_btn.svg" alt="Shows close btn">
+      </div>
+      <ul class="menuPopUp">
+        <li class="items"><a href="#portfolio">Portfolio</a></li><hr class="items-line">
+        <li class="items"><a href="#About">About</a></li><hr class="items-line">
+        <li class="items"><a href="#contact">Contact</a></li><hr class="items-line">
+      </ul>
+    </div>
   
     
     <script src="main.js"></script>
