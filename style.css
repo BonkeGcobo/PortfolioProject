@@ -397,7 +397,6 @@ textarea {
   float: right;
   padding: 0.5rem;
   width: 8%;
-
 }
 
 .menuPopUp {
@@ -405,13 +404,12 @@ textarea {
   flex-direction: column;
   color: #fff;
   margin-top: 3rem;
-  font-family: 'Inter' , sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   list-style: none;
   margin-right: 2rem;
-
 }
 
 .items {
