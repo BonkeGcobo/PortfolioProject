@@ -111,7 +111,7 @@
 }
 
 .proj2 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
@@ -376,6 +376,50 @@ textarea {
 
 .Desktop-contact-form {
   display: none;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 90%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding: 2rem;
+}
+
+.closeBtn {
+  float: right;
+  padding: 0.5rem;
+  width: 8%;
+}
+
+.menuPopUp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.items {
+  margin-top: 1rem;
+}
+
+.items-line {
+  width: 90%;
+  margin-right: 60px;
+  border: 1px solid #6f6c6b;
 }
 
 @media only screen and  (min-width: 1000px) {
