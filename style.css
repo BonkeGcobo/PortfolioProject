@@ -428,13 +428,104 @@ textarea {
   border: 1px solid #6f6c6b;
 }
 
-.Mobile-ProjectPopUp {
-  display: none;
-  flex-direction: column;
+.container {
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  margin-top: 0px;
+  z-index: -1;
+  background-color: #979493;
+  mix-blend-mode: multiply;
+  filter: blur(5px);
 }
 
-.popTop {
+.ProjectPopUp {
   display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: absolute;
+  width: 343px;
+  height: 100;
+  margin-right: 2px;
+  margin-left: 8px;
+  top: 1rem;
+  box-sizing: border-box;
+  z-index: 1;
+  border: 3px solid pink;
+  padding-bottom: 1rem;
+}
+
+.ProTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.proHeading {
+  color: #172b4d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.lan-tags {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 80%;
+  margin-top: -0.5rem;
+  margin-left: 1rem;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.lan-tag {
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
+.imgSec {
+  margin-top: -1rem;
+  padding-left: 1rem;
+  width: 70%;
+}
+
+.btnSec {
+  margin-left: 1rem;
+}
+
+.Pro-descrip  {
+  font-size: 16px;
+  width: 90%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.lorem  {
+  font-size: 12px;
+}
+
+.btnSec {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 70%;
+}
+
+.seeLive {
+  background-color: #ff6b00;
+  color: #fff;
+  border-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn-image{
+  margin-left: 1rem;
 }
 
 @media only screen and  (min-width: 1000px) {

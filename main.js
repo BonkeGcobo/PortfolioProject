@@ -10,11 +10,11 @@ window.onload = () => {
 
   const item = document.querySelector('.menuPopUp');
   closeMobileMenu(item);
-
+  
+  //Closer for the mobile menu
   function closeMobileMenu(closer){
     closer.addEventListener('click', () => {
       const menu = document.querySelector('.mobile-menu');
-      console.log("Item");
       menu.style.display = 'none';
     });
   }
