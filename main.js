@@ -12,34 +12,45 @@ window.onload = () => {
   closeMobileMenu(item);
   
   const project_1=document.querySelector('.projectBtn');
-  project_1.addEventListener('click',()=>{
+  openPro(project_1,0)
+  /*project_1.addEventListener('click',()=>{
     const container = document.querySelector('.cont');
     container.classList.toggle('container');
     const popUp=document.querySelector('.ProjectPopUp');
+    Populate(0);
     popUp.style.display = 'flex';
-  });
-
+  });*/
 
   /**Open the mobile objects */
   const project_2=document.querySelector('.btnProject2-1');
-  openPro(project_2);
-  const project_3=document.querySelector('.btnProject2-2');
-  openPro(project_3);
-  const project_4=document.querySelector('.btnProject2-3');
-  openPro(project_4);
-  const project_5=document.querySelector('.btnProject2-4');
-  openPro(project_5);
-  const project_6=document.querySelector('.btnProject2-5');
-  openPro(project_6);
-  const project_7=document.querySelector('.btnProject2-6');
-  openPro(project_7);
+  openPro(project_2,1);
+  
 
-  function openPro(project) {
+  const project_3=document.querySelector('.btnProject2-2');
+  openPro(project_3,2);
+
+  const project_4=document.querySelector('.btnProject2-3');
+  openPro(project_4,3);
+  
+
+  const project_5=document.querySelector('.btnProject2-4');
+  openPro(project_5,4);
+  
+
+  const project_6=document.querySelector('.btnProject2-5');
+  openPro(project_6,5);
+
+
+  const project_7=document.querySelector('.btnProject2-6');
+  openPro(project_7,6);
+  
+
+  function openPro(project,id) {
     project.addEventListener('click', () =>{
       const container = document.querySelector('.cont');
       container.classList.toggle('container');
       const popUp=document.querySelector('.ProjectPopUp');
-      popUp.style.display = 'flex';
+      Populate(id,popUp);      
     });
 
   }
@@ -76,7 +87,7 @@ window.onload = () => {
       id: 1,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -97,7 +108,7 @@ window.onload = () => {
       id:2,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -118,7 +129,7 @@ window.onload = () => {
       id: 3,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -139,7 +150,7 @@ window.onload = () => {
       id:4,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -160,7 +171,7 @@ window.onload = () => {
       id:5,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -181,7 +192,7 @@ window.onload = () => {
       id:6,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -201,7 +212,7 @@ window.onload = () => {
       id:7,
       name: 'Multi Post Stories',
       langs: ['html', 'Bootstrap', 'Ruby on rails'],
-      Image: 'images/SnapProject.svg',
+      Image: 'images/Snap.png',
       description:
       "Lorem Ipsum is simply dummy text of the printing and "+ 
       "typesetting industry. Lorem Ipsum " +
@@ -222,4 +233,15 @@ window.onload = () => {
 
 
   /**Populating the Cards with javaScript */
+  function Populate(id,popUp){
+    document.querySelector(".proHeading").innerHTML = projects[id].name;
+    document.querySelector('.lan-html').innerHTML = projects[id].langs[0];
+    document.querySelector('.lan-boot').innerHTML = projects[id].langs[1];
+    document.querySelector('.lan-rails').innerHTML = projects[id].langs[2];
+    document.querySelector('.img-sec').src=projects[id].Image;
+    document.querySelector('.lorem').innerHTML= projects[id].description;
+    document.querySelector('.source-link').href=projects[id].links[1];
+    document.querySelector('.live-link').href=projects[id].links[0];
+    popUp.style.display = 'flex';  
+  }
 };

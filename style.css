@@ -532,6 +532,16 @@ textarea {
   margin-left: 1rem;
 }
 
+.source-link {
+  text-decoration: none;
+  color:#fff;
+}
+
+.live-link {
+  text-decoration: none;
+  color:#fff;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar {
     display: none;
