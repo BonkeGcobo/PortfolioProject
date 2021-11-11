@@ -123,7 +123,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .lans2 {
@@ -412,7 +412,6 @@ textarea {
   margin-right: 2rem;
 }
 
-
 .items {
   margin-top: 1rem;
 }
@@ -434,7 +433,7 @@ textarea {
   width: 100%;
   position: absolute;
   height: 100%;
-  margin-top: 0px;
+  margin-top: 0;
   z-index: -1;
   background-color: #979493;
   mix-blend-mode: multiply;
@@ -450,7 +449,7 @@ textarea {
   flex-direction: column;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #fff;
   position: fixed;
   margin-top: 1rem;
   margin-right: 1.5rem;
@@ -497,18 +496,14 @@ textarea {
   width: 70%;
 }
 
-.btnSec {
-  margin-left: 1rem;
-}
-
-.Pro-descrip  {
+.Pro-descrip {
   font-size: 16px;
   width: 90%;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
-.lorem  {
+.lorem {
   font-size: 12px;
 }
 
@@ -527,18 +522,18 @@ textarea {
   padding-bottom: 0.5rem;
 }
 
-.btn-image{
+.btn-image {
   margin-left: 1rem;
 }
 
 .source-link {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
 .live-link {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
 @media only screen and  (min-width: 1000px) {
@@ -838,12 +833,12 @@ textarea {
     flex-direction: column;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #fff;
     position: fixed;
     width: 99%;
     margin-left: 1px;
     z-index: 1;
-    padding: 0px;
+    padding: 0;
   }
 
   .desk-tag {
@@ -866,7 +861,7 @@ textarea {
   }
 
   .deskHeading {
-    padding: 0px;
+    padding: 0;
   }
 
   .deskPart {
@@ -876,5 +871,4 @@ textarea {
   .desk-btn-sec {
     width: 40%;
   }
-
 }
