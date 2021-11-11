@@ -454,8 +454,7 @@ textarea {
   position: fixed;
   margin-top: 1rem;
   margin-right: 1.5rem;
-  margin-bottom: -0.5rem;
- /* box-sizing: border-box;*/
+  margin-bottom: -2rem;
   z-index: 1;
   border: 3px solid rgb(65, 32, 38);
   padding-bottom: 0.5rem;
@@ -833,4 +832,49 @@ textarea {
     background: #ff6b00;
     color: #fff;
   }
+
+  .DeskPop {
+    display: none;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    position: fixed;
+    width: 99%;
+    margin-left: 1px;
+    z-index: 1;
+    padding: 0px;
+  }
+
+  .desk-tag {
+    margin-top: -0.5rem;
+    width: 20%;
+    padding-right: 2rem;
+  }
+
+  .centerSec {
+    display: flex;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desk-lory {
+    font-size: 16px;
+  }
+
+  .deskHeading {
+    padding: 0px;
+  }
+
+  .deskPart {
+    width: 60%;
+  }
+
+  .desk-btn-sec {
+    width: 40%;
+  }
+
 }
