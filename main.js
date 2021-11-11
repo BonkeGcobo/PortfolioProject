@@ -310,27 +310,27 @@ window.onload = () => {
 
   /** *Array Storing the project information mobile* */
   const form = document.querySelector('.form');
-  const formDesk=document.querySelector('.form-desk')
+  const formDesk = document.querySelector('.form-desk');
   const emailInput = document.getElementById('mail');
-  const emailInputDesk = document.getElementById('mail-desk')
+  const emailInputDesk = document.getElementById('mail-desk');
   const errMgs = document.querySelector('.error-mgs');
   const errMgsDesk = document.querySelector('.error-desk');
 
   form.addEventListener('submit', (e) => {
     if (emailInput.value === emailInput.value.toLowerCase()) {
       errMgs.textContent = '';
-    }else{
+    } else {
       e.preventDefault();
-      errMgs.textContent = 'Email should be in lower case!'
+      errMgs.textContent = 'Email should be in lower case!';
     }
   });
 
   formDesk.addEventListener('submit', (e) => {
     if (emailInputDesk.value === emailInputDesk.value.toLowerCase()) {
       errMgsDesk.textContent = '';
-    }else{
+    } else {
       e.preventDefault();
-      errMgsDesk.textContent = 'Email should be in lower case!'
+      errMgsDesk.textContent = 'Email should be in lower case!';
     }
   });
 };
