@@ -309,4 +309,16 @@ window.onload = () => {
   deskClose(closeDesk);
 
   /** *Array Storing the project information mobile* */
+  const form = document.querySelector('.form');
+  const emailInput = document.getElementById('mail');
+  const errMgs = document.querySelector('.error-mgs');
+
+  form.addEventListener('submit', (e) => {
+    if (emailInput.value === emailInput.value.toLowerCase()) {
+      errMgs.textContent = '';
+    }else{
+      e.preventDefault();
+      errMgs.textContent = 'Email should be in lower case!'
+    }
+  });
 };
