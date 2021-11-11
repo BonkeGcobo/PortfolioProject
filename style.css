@@ -536,6 +536,10 @@ textarea {
   color: #fff;
 }
 
+.error-mgs{
+  color: red;
+}
+
 @media only screen and  (min-width: 1000px) {
   .toolbar {
     display: none;
