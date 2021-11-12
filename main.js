@@ -333,8 +333,6 @@ window.onload = () => {
       errMgsDesk.textContent = 'Email should be in lower case!';
     }
   });
-
-  /**Add local storage */
     /**Make WebStorage */
   /*Create a local Storage */
   const storageName = 'inputFormDetails';
@@ -356,4 +354,5 @@ window.onload = () => {
 
   window.localStorage.setItem(storageName, JSON.stringify(newData));
   });
+
 };
