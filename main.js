@@ -333,5 +333,26 @@ window.onload = () => {
       errMgsDesk.textContent = 'Email should be in lower case!';
     }
   });
+    /**Make WebStorage */
+  /*Create a local Storage */
+  const storageName = 'inputFormDetails';
+
+  const currentStorage = JSON.parse(window.localStorage.getItem(storageName));
+
+  if (currentStorage) {
+    form.user_name.value = currentStorage.username;
+    form.mail.value = currentStorage.email;
+    form.msg.value = currentStorage.message; 
+  }
+
+  form.addEventListener('input', () => {
+    const newData = {
+    username: form.user_name.value,
+    email: form.mail.value,
+    message: form.msg.value,
+  };
+
+  window.localStorage.setItem(storageName, JSON.stringify(newData));
+  });
 
 };
